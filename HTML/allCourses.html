@@ -410,9 +410,9 @@
   <script type="text/javascript" src="../scripts/allCoursesSort.js"></script>
 </html>
 <script>
-  var name1 = document.getElementById("signIn");
-  var loginData=localStorage.getItem("logindata");
-  var data = JSON.parse(loginData);
+  let name1 = document.getElementById("signIn");
+  let loginData=localStorage.getItem("logindata");
+  let data = JSON.parse(loginData);
   console.log(data.name);
 
   name1.innerHTML=data.name;
